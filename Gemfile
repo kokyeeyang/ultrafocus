@@ -35,8 +35,6 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'bcrypt', '~> 3.1.7'
 gem 'skylight'
-gem 'rspec'
-gem 'rspec-given'
 gem 'kaminari'
 gem 'foreman'
 gem 'rails_12factor'
