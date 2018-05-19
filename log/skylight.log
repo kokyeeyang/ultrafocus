@@ -1,0 +1,13 @@
+# Logfile created on 2018-05-17 16:53:17 +0800 by logger.rb/54362
+W, [2018-05-17T16:53:17.062869 #2381]  WARN -- : [SKYLIGHT] [1.5.1] Running Skylight in development mode. No data will be reported until you deploy your app.
+(To disable this message for all local apps, run `skylight disable_dev_warning`.)
+W, [2018-05-19T03:07:34.011944 #2390]  WARN -- : [SKYLIGHT] [1.5.1] Running Skylight in development mode. No data will be reported until you deploy your app.
+(To disable this message for all local apps, run `skylight disable_dev_warning`.)
+W, [2018-05-19T03:27:02.370567 #3465]  WARN -- : [SKYLIGHT] [1.5.1] Running Skylight in development mode. No data will be reported until you deploy your app.
+(To disable this message for all local apps, run `skylight disable_dev_warning`.)
+W, [2018-05-19T03:47:10.788158 #4124]  WARN -- : [SKYLIGHT] [1.5.1] Running Skylight in development mode. No data will be reported until you deploy your app.
+(To disable this message for all local apps, run `skylight disable_dev_warning`.)
+W, [2018-05-19T11:44:23.619243 #5230]  WARN -- : [SKYLIGHT] [1.5.1] Running Skylight in development mode. No data will be reported until you deploy your app.
+(To disable this message for all local apps, run `skylight disable_dev_warning`.)
+W, [2018-05-19T11:48:53.727940 #5434]  WARN -- : [SKYLIGHT] [1.5.1] Running Skylight in development mode. No data will be reported until you deploy your app.
+(To disable this message for all local apps, run `skylight disable_dev_warning`.)

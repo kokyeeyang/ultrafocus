@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Ultra Focused</title>
+    <%= csrf_meta_tags %>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.3.2/flatpickr.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  	
+    <div id="container">
+      <div id="user_header">
+        <% if signed_in? %>
+        <%= current_user.email %>
+        <%= link_to "Sign out", sign_out_path, method: :delete %>
+          <%= link_to 'New List', new_list_path %>
+          <%= link_to 'Your current lists', lists_path %>
+          <% else %>
+        <%= link_to "Sign up now!", new_user_path %>
+        <%= link_to "Sign in", sign_in_path %>
+        <% end %>
+      </div>
+    </div>
+    <%= yield %>
+   	
+  </body>
+</html>

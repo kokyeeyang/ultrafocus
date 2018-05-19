@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @list.title %>
+</p>
+<% if current_user.role == "admin" || @user == current_user %>
+<p>
+  <strong>Your list for the day!</strong>
+  <%= @list.task1 %>
+  <br/>
+  <%= @list.task2 %>
+  <br/>
+  <%= @list.task3 %>
+  <br/>
+  <%= @list.task4 %>
+  <br/>
+  <%= @list.task5 %>
+  <br/>
+  <%= @list.avatar %>
+</p>
+
+<iframe class ="map" height="250px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBX8hQcoSEtucwisPltvD2u0Xsl7nZg77I&q=spain" allowfullscreen>
+</iframe>
+   
+
+<div id= "buttons">
+<%= link_to 'Edit', edit_list_path(@list) %> |
+<%= link_to 'Go back!', lists_path %>
+</div>
+<%end%>

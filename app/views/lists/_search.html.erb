@@ -1,0 +1,24 @@
+<h1> Here are your search results </h1>
+
+	
+			<%# i = 0 %>
+		<%# while i < @lists.length do %> 
+  		<%#= @listings[i].title %>
+  		<%#= @listings[i].task1 %>
+  		<%#= @listings[i].task2 %> 
+  		<%#= @listings[i].task3 %>
+  		<%#= @listings[i].task4 %>
+  		<%#= @listings[i].task5 %>
+  		<%# i = i + 1 %> 
+  	<%# end %> 
+
+
+<% @lists.each do |s|  %>
+	<%= s.title %> <br>
+	<%= s.task1 %> <br>
+	<%= s.task2 %> <br>
+	<%= s.task3 %> <br>
+	<%= s.task4 %> <br>
+	<%= s.task5 %> <br>
+	<%= image_tag s.avatar %><br/>
+<%end%>

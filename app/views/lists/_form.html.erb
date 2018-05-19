@@ -1,0 +1,50 @@
+
+<%= form_with(model: @list, local: true) do |form| %>
+  <% if @list.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(list.errors.count, "error") %> prohibited this list from being saved:</h2>
+
+      <ul>
+      <% @list.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :title %>
+    <%= form.text_field :title, id: :list_title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :task1 %>
+    <%= form.text_area :task1, id: :list_task1 %>
+  </div> 
+
+  <div class="field">
+    <%= form.label :task2 %>
+    <%= form.text_area :task2, id: :list_task2 %>
+  </div> 
+
+  <div class="field">
+    <%= form.label :task3 %>
+    <%= form.text_area :task3, id: :list_task3 %>
+  </div> 
+
+  <div class="field">
+    <%= form.label :task4 %>
+    <%= form.text_area :task4, id: :list_task4 %>
+  </div>  
+
+  <div class="field">
+    <%= form.label :task5 %>
+    <%= form.text_area :task5, id: :list_task5 %>
+  </div>  
+
+  <%= form.file_field :avatar %>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
