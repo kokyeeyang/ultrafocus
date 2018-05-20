@@ -1,7 +1,7 @@
 // Place all the styles related to the Lists controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.align_center{
+.align_center {
   text-align: center;
 }
 
@@ -13,3 +13,38 @@
 	width: 300px;
 	height: 200px;
 }
+
+.field {
+	text-align: center;
+}
+
+.actions {
+	text-align: center;
+}
+
+.avatar {
+	text-align: center;
+}
+
+.welcome {
+	text-align: center;
+}
+
+.new_list {
+	text-align: center;
+}
+
+.new_list {
+	background-image: url("http://www.hdwallpaperslife.com/wp-content/uploads/2017/04/vintage_paper_cameo_key_pen_book_76277_1680x1050-680x425.jpg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.container {
+	background-color: red;
+}
+

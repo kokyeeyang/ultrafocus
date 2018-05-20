@@ -11,3 +11,7 @@ W, [2018-05-19T11:44:23.619243 #5230]  WARN -- : [SKYLIGHT] [1.5.1] Running Skyl
 (To disable this message for all local apps, run `skylight disable_dev_warning`.)
 W, [2018-05-19T11:48:53.727940 #5434]  WARN -- : [SKYLIGHT] [1.5.1] Running Skylight in development mode. No data will be reported until you deploy your app.
 (To disable this message for all local apps, run `skylight disable_dev_warning`.)
+W, [2018-05-20T22:29:47.398304 #2901]  WARN -- : [SKYLIGHT] [1.5.1] Running Skylight in development mode. No data will be reported until you deploy your app.
+(To disable this message for all local apps, run `skylight disable_dev_warning`.)
+W, [2018-05-20T22:31:07.896350 #2982]  WARN -- : [SKYLIGHT] [1.5.1] Running Skylight in development mode. No data will be reported until you deploy your app.
+(To disable this message for all local apps, run `skylight disable_dev_warning`.)
