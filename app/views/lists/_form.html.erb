@@ -41,8 +41,9 @@
     <%= form.label :task5 %>
     <%= form.text_area :task5, id: :list_task5 %>
   </div>  
-
-  <%= form.file_field :avatar %>
+  <div class="avatar">
+    <%= form.file_field :avatar %>
+  </div>
 
   <div class="actions">
     <%= form.submit %>

@@ -1,7 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <div id="main2">
-<h1>Your goals</h1>
+<h1>Tutorial</h1>
 
 <table>
   <thead>
@@ -24,20 +24,20 @@
         <% if current_user.role == "admin" %>
 
         Description: <%= list.title %><br/>
-        Task1: <%= list.task1 %><br/>
-        Task2: <%= list.task2 %><br/>
-        Task3: <%= list.task3 %><br/>
-        Task4: <%= list.task4 %><br/>
-        Task5: <%= list.task5 %><br/>
+        Step1: <%= list.task1 %><br/>
+        Step2: <%= list.task2 %><br/>
+        Step3: <%= list.task3 %><br/>
+        Step4: <%= list.task4 %><br/>
+        Step5: <%= list.task5 %><br/>
                 <%= image_tag list.avatar %><br/>
         <% elsif list.user_id == current_user.id %>
 
         Description: <%= list.title %><br/>
-        Task1: <%= list.task1 %><br/>
-        Task2: <%= list.task2 %><br/>
-        Task3: <%= list.task3 %><br/>
-        Task4: <%= list.task4 %><br/>
-        Task5: <%= list.task5 %><br/>
+        Step1: <%= list.task1 %><br/>
+        Step2: <%= list.task2 %><br/>
+        Step3: <%= list.task3 %><br/>
+        Step4: <%= list.task4 %><br/>
+        Step5: <%= list.task5 %><br/>
                 <%= image_tag list.avatar %><br/>
           <%= link_to 'Show', list %>
           <%= link_to 'Edit', edit_list_path(list) %>
